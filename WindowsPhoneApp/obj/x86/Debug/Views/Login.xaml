@@ -9,7 +9,9 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-
+        <TextBox Name="tbUser" HorizontalAlignment="Left" Margin="118,170,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="240"/>
+        <Button Name="btnLogin" Content="Log-in" HorizontalAlignment="Left" Margin="249,285,0,0" VerticalAlignment="Top"/>
+        <PasswordBox Name="tbLast" HorizontalAlignment="Left" Margin="118,227,0,0" VerticalAlignment="Top" Width="240"/>
     </Grid>
 </Page>
 
