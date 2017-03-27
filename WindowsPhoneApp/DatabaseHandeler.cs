@@ -13,8 +13,36 @@ namespace WindowsPhoneApp
         public SQLiteConnection db;
         public DatabaseHandeler()
         {
-            db = new SQLiteConnection("Foo");
+
+        }
+
+        public void CreateDatabase()
+        {
+            db = new SQLiteConnection("WPA_Database");
             db.CreateTable<Users>();
+            db.CreateTable<Customers>();
+        }
+
+        public string InsertContact(string company, string title, string firstName, string lastName, string phone, string email)
+        {
+            try
+            {
+                db.Insert(new Customers()
+                {
+                    Company = company,
+                    Title = title,
+                    First_Name = firstName,
+                    Last_Name = lastName,
+                    Phone = phone,
+                    Email = email
+                });
+            }
+            catch (Exception e)
+            {
+                return e.ToString();
+            }
+
+            return "Contact has been added succesfully.";
         }
 
         public string Test()
