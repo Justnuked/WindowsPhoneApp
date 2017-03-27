@@ -6,4 +6,8 @@ Assets\StoreLogo.scale-240.png
 Assets\WideLogo.scale-240.png
 App.xbf
 MainPage.xbf
+Views\Add_Customer.xbf
+Views\Login.xbf
 WindowsPhoneApp.xr.xml
+Controllers\TextFile1.txt
+Views\TextFile2.txt

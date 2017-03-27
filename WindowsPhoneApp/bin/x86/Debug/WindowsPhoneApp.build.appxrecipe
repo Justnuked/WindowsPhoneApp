@@ -1,61 +1,73 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>THOM-LAPTOP</Machine>
-    <WindowsUser>Thom</WindowsUser>
+    <Machine>CASPER-PC</Machine>
+    <WindowsUser>Casper</WindowsUser>
     <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
     <SolutionConfiguration>Debug|x86</SolutionConfiguration>
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>af920651-0be6-4cb5-aaa3-c95f3768a271</PackageIdentityName>
-    <IntermediateOutputPath>C:\Users\Thom\Documents\Visual Studio 2013\Projects\WindowsPhoneApp\WindowsPhoneApp\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Casper\Desktop\Windows Phone App\WindowsPhoneApp\WindowsPhoneApp\obj\x86\Debug\</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Thom\Documents\Visual Studio 2013\Projects\WindowsPhoneApp\WindowsPhoneApp\bin\x86\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Casper\Desktop\Windows Phone App\WindowsPhoneApp\WindowsPhoneApp\bin\x86\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Thom\Documents\Visual Studio 2013\Projects\WindowsPhoneApp\WindowsPhoneApp\bin\x86\Debug\WindowsPhoneApp.exe">
+    <AppxPackagedFile Include="C:\Users\Casper\Desktop\Windows Phone App\WindowsPhoneApp\WindowsPhoneApp\bin\x86\Debug\WindowsPhoneApp.exe">
       <PackagePath>WindowsPhoneApp.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\SQLite.WP81\3.17.0\Redist\Debug\x86\sqlite3.dll">
       <PackagePath>sqlite3.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Thom\Documents\Visual Studio 2013\Projects\WindowsPhoneApp\WindowsPhoneApp\Assets\Logo.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\Casper\Desktop\Windows Phone App\WindowsPhoneApp\WindowsPhoneApp\Assets\Logo.scale-240.png">
       <PackagePath>Assets\Logo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Thom\Documents\Visual Studio 2013\Projects\WindowsPhoneApp\WindowsPhoneApp\Assets\SmallLogo.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\Casper\Desktop\Windows Phone App\WindowsPhoneApp\WindowsPhoneApp\Assets\SmallLogo.scale-240.png">
       <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Thom\Documents\Visual Studio 2013\Projects\WindowsPhoneApp\WindowsPhoneApp\Assets\SplashScreen.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\Casper\Desktop\Windows Phone App\WindowsPhoneApp\WindowsPhoneApp\Assets\SplashScreen.scale-240.png">
       <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Thom\Documents\Visual Studio 2013\Projects\WindowsPhoneApp\WindowsPhoneApp\Assets\Square71x71Logo.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\Casper\Desktop\Windows Phone App\WindowsPhoneApp\WindowsPhoneApp\Assets\Square71x71Logo.scale-240.png">
       <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Thom\Documents\Visual Studio 2013\Projects\WindowsPhoneApp\WindowsPhoneApp\Assets\StoreLogo.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\Casper\Desktop\Windows Phone App\WindowsPhoneApp\WindowsPhoneApp\Assets\StoreLogo.scale-240.png">
       <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Thom\Documents\Visual Studio 2013\Projects\WindowsPhoneApp\WindowsPhoneApp\Assets\WideLogo.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\Casper\Desktop\Windows Phone App\WindowsPhoneApp\WindowsPhoneApp\Assets\WideLogo.scale-240.png">
       <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Thom\Documents\Visual Studio 2013\Projects\WindowsPhoneApp\WindowsPhoneApp\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\Casper\Desktop\Windows Phone App\WindowsPhoneApp\WindowsPhoneApp\Controllers\TextFile1.txt">
+      <PackagePath>Controllers\TextFile1.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Casper\Desktop\Windows Phone App\WindowsPhoneApp\WindowsPhoneApp\Views\TextFile2.txt">
+      <PackagePath>Views\TextFile2.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Casper\Desktop\Windows Phone App\WindowsPhoneApp\WindowsPhoneApp\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Thom\Documents\Visual Studio 2013\Projects\WindowsPhoneApp\WindowsPhoneApp\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Casper\Desktop\Windows Phone App\WindowsPhoneApp\WindowsPhoneApp\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Thom\Documents\Visual Studio 2013\Projects\WindowsPhoneApp\WindowsPhoneApp\bin\x86\Debug\WindowsPhoneApp.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Casper\Desktop\Windows Phone App\WindowsPhoneApp\WindowsPhoneApp\bin\x86\Debug\Views\Add_Customer.xbf">
+      <PackagePath>Views\Add_Customer.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Casper\Desktop\Windows Phone App\WindowsPhoneApp\WindowsPhoneApp\bin\x86\Debug\Views\Login.xbf">
+      <PackagePath>Views\Login.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Casper\Desktop\Windows Phone App\WindowsPhoneApp\WindowsPhoneApp\bin\x86\Debug\WindowsPhoneApp.xr.xml">
       <PackagePath>WindowsPhoneApp.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Thom\Documents\Visual Studio 2013\Projects\WindowsPhoneApp\WindowsPhoneApp\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Casper\Desktop\Windows Phone App\WindowsPhoneApp\WindowsPhoneApp\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

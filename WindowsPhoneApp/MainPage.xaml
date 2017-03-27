@@ -10,5 +10,6 @@
 
     <Grid>
         <TextBox x:Name="Temp" HorizontalAlignment="Left" Margin="132,160,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Height="92" Width="160"/>
+        <HyperlinkButton Name="hplCust" Content="Add Customers" HorizontalAlignment="Left" Margin="105,455,0,0" VerticalAlignment="Top" Click="hplCust_Click"/>
     </Grid>
 </Page>

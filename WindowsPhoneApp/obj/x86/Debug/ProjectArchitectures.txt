@@ -1,1 +1,1 @@
-C:\Users\Thom\Documents\Visual Studio 2013\Projects\WindowsPhoneApp\WindowsPhoneApp\WindowsPhoneApp.csproj;x86
+C:\Users\Casper\Desktop\Windows Phone App\WindowsPhoneApp\WindowsPhoneApp\WindowsPhoneApp.csproj;x86

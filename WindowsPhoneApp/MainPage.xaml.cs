@@ -13,6 +13,7 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 using WindowsPhoneApp.Models;
+using WindowsPhoneApp.Views;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=391641
 
@@ -49,6 +50,11 @@ namespace WindowsPhoneApp
             // Windows.Phone.UI.Input.HardwareButtons.BackPressed event.
             // If you are using the NavigationHelper provided by some templates,
             // this event is handled for you.
+        }
+
+        private void hplCust_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(Add_Customer));
         }
     }
 }

@@ -22,9 +22,12 @@ namespace WindowsPhoneApp.Views
     /// </summary>
     public sealed partial class Add_Customer : Page
     {
+        DatabaseHandeler db;
+
         public Add_Customer()
         {
             this.InitializeComponent();
+            db = new DatabaseHandeler();
         }
 
         /// <summary>
@@ -36,9 +39,10 @@ namespace WindowsPhoneApp.Views
         {
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void btnAdd_Click(object sender, RoutedEventArgs e)
         {
-
+            string result = db.InsertContact(tbCompany.Text, tbTitle.Text, tbFirst.Text, tbLast.Text, tbPhone.Text, tbEmail.Text);
+            tbOutput.Text = result;
         }
     }
 }
