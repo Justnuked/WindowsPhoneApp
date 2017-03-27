@@ -104,6 +104,9 @@
     <Compile Include="Views\Add_Customer.xaml.cs">
       <DependentUpon>Add_Customer.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\SelectCustomer.xaml.cs">
+      <DependentUpon>SelectCustomer.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\Login.xaml.cs">
       <DependentUpon>Login.xaml</DependentUpon>
     </Compile>
@@ -133,6 +136,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Views\Add_Customer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\SelectCustomer.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

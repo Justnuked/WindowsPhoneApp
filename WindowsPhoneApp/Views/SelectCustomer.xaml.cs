@@ -20,14 +20,11 @@ namespace WindowsPhoneApp.Views
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class Add_Customer : Page
+    public sealed partial class SelectCustomer : Page
     {
-        DatabaseHandeler db;
-
-        public Add_Customer()
+        public SelectCustomer()
         {
             this.InitializeComponent();
-            db = new DatabaseHandeler();
         }
 
         /// <summary>
@@ -39,10 +36,9 @@ namespace WindowsPhoneApp.Views
         {
         }
 
-        private void btnAdd_Click(object sender, RoutedEventArgs e)
+        private void btnSelect_Click(object sender, RoutedEventArgs e)
         {
-            string result = db.InsertCustomer(tbCompany.Text, tbTitle.Text, tbFirst.Text, tbLast.Text, tbPhone.Text, tbEmail.Text);
-            tbOutput.Text = result;
+
         }
     }
 }

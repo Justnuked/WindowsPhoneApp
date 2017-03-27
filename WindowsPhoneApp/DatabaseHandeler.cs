@@ -25,7 +25,7 @@ namespace WindowsPhoneApp
             db.CreateTable<Customers>();
         }
 
-        public string InsertContact(string company, string title, string firstName, string lastName, string phone, string email)
+        public string InsertCustomer(string company, string title, string firstName, string lastName, string phone, string email)
         {   
             try
             {
@@ -43,7 +43,43 @@ namespace WindowsPhoneApp
             {
                 return e.ToString();
             }
-            return "Contact has been added succesfully.";
+            return "Customer has been added succesfully.";
+        }
+
+        public string EditCustomer(int id, string company, string title, string firstName, string lastName, string phone, string email)
+        {
+
+            return "Customer edited succesfully.";
+        }
+
+        public Customers SelectCustomer(int id)
+        {
+            try
+            {
+               Customers cust;
+               cust = new Customers();
+                
+               var query = db.Table<Customers>().Where(v => v.Id == id);
+
+               foreach (var c in query)
+               {
+                   cust.Company = c.Company;
+                   cust.First_Name = c.First_Name;
+                   cust.Last_Name = c.Last_Name;
+                   cust.Title = c.Title;
+                   cust.Phone = c.Phone;
+                   cust.Email = c.Email;
+               }
+
+               return cust;
+            }
+            catch (Exception e)
+            {
+                Customers cust;
+                cust = new Customers();
+                cust.First_Name = e.ToString();
+                return cust;
+            }
         }
 
         public string Test()
